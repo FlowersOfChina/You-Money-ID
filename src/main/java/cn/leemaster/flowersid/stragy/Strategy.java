@@ -9,6 +9,6 @@ package cn.leemaster.flowersid.stragy;
  */
 public interface Strategy {
 
-    public long nextId();
+    public long nextId(String ... params);
 
 }

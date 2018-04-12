@@ -72,7 +72,7 @@ public class DateTimeId implements Strategy {
     }
 
     @Override
-    public long nextId() {
+    public long nextId(String ... params) {
 
         Calendar calendar = Calendar.getInstance();
 
